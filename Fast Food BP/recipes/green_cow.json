@@ -1,0 +1,37 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "foods:green_cow"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "#X#",
+        "#O#",
+        "#X#"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:iron_nugget"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        },
+        "O": {
+          "item": "foods:secret_ingredient"
+        }
+      },
+      "unlock": [
+        {
+          "item": "foods:green_cow"
+        }
+      ],
+      "result": {
+        "item": "foods:green_cow",
+        "count": 1
+      }
+    }
+  }
+  

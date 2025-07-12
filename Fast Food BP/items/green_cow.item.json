@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foods:green_cow",
+			"menu_category": {
+				"category": "Items",
+				"group": "itemGroup.name.miscFood"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "green_cow"
+			},
+			"minecraft:food": {
+				"nutrition": 1,
+				"saturation_modifier": 0.5,
+				"can_always_eat": true
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.32,
+				"use_duration": 1.6
+			},
+			"minecraft:use_animation": "drink"
+		}
+	}
+}

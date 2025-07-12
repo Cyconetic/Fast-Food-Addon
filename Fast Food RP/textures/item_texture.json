@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "fast_food",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"green_cow": {
+			"textures": "textures/items/green_cow"
+		},
+		"secret_ingredient": {
+			"textures": "textures/items/secret_ingredient"
+		}
+	}
+}

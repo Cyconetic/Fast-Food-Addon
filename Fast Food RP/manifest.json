@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "It's good for you, I promise",
+		"name": "Fast Food Texture Pack",
+		"uuid": "13162924-2103-4796-aa78-20741221ecb9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "It's good for you, I promise",
+			"type": "resources",
+			"uuid": "09b9665b-dea5-4a0b-9730-1c6cd34f45be",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_item_wizard": ["1.1.0"]
+		}
+	}
+}

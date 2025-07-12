@@ -1,0 +1,35 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "It's good for you, I promise",
+		"name": "Fast Food (Extra Food)",
+		"uuid": "8a21c028-5b4d-4271-921f-a8102529485d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "It's good for you, I promise",
+			"type": "data",
+			"uuid": "c9696867-25bf-4c2d-9065-4ca477f06287",
+			"version": [1, 0, 0]
+		},
+		{
+          "description": "It's good for you, I promise",
+            "type": "script",
+            "uuid": "7cd577f3-ea6a-4df0-baf0-3e4bc1bb8cad",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+	],
+	"dependencies": [
+		{
+			"uuid": "13162924-2103-4796-aa78-20741221ecb9",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name":"@minecraft/server",
+			"version":"2.0.0"
+    	}
+	]
+}
